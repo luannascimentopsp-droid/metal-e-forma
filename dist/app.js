@@ -45,7 +45,7 @@
       {id:'v3',title:'Guarda-roupa aberto',description:'Estrutura modular · sob medida',art:'visual-wardrobe',demo:true},
       {id:'v4',title:'Bancada de trabalho',description:'Estrutura reforçada · personalizada',art:'visual-table',demo:true}
     ],
-    settings:{workshop:'Metal & Forma',whatsapp:'',region:''},quotes:[]
+    settings:{workshop:'Metal & Forma',whatsapp:'558387564296',region:''},quotes:[]
   });
   const KEY='mf-workshop-v1';
   let db;
