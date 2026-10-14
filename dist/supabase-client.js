@@ -24,6 +24,7 @@
     async getUser() {
       if (!client) return null;
       const { data, error } = await client.auth.getUser();
+      if (error?.name === 'AuthSessionMissingError' || error?.message === 'Auth session missing!') return null;
       if (error) throw authError(error);
       return data.user || null;
     },
